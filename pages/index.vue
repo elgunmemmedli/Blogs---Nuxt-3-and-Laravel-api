@@ -52,7 +52,7 @@ const {data, error} = await useAsyncData(
       const result = {
         new_posts: {} as postTypes,
       }
-      result.new_posts = await $fetch(base_url + 'data');
+     result.new_posts = await $fetch('https://publisist.az/api/data');
       return result;
     }
 );
