@@ -7,6 +7,12 @@
     </div>
 </template>
 
+<style>
+body{
+  background-color: #272B3E;
+}
+</style>
+
 
 
 
