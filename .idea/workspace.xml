@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c047d5fa-2eea-4570-b222-df69b92245f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/BlogCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blogs/[id].vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blogs/[id].vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+    <list default="true" id="c047d5fa-2eea-4570-b222-df69b92245f5" name="Changes" comment="blog detail fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +60,42 @@
       <workItem from="1671808211529" duration="769000" />
       <workItem from="1672954389009" duration="1221000" />
       <workItem from="1673266115461" duration="549000" />
-      <workItem from="1702639924744" duration="5656000" />
+      <workItem from="1702639924744" duration="7453000" />
     </task>
+    <task id="LOCAL-00001" summary="new design">
+      <option name="closed" value="true" />
+      <created>1702645603220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702645603220</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a color fix">
+      <option name="closed" value="true" />
+      <created>1702645859763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702645859763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="blog detail fix">
+      <option name="closed" value="true" />
+      <created>1702646626421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702646626421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new design" />
+    <MESSAGE value="a color fix" />
+    <MESSAGE value="blog detail fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog detail fix" />
   </component>
 </project>
