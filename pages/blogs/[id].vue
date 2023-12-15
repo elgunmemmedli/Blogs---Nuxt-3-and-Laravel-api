@@ -43,6 +43,6 @@ const {data, error} = await useAsyncData(
 
 <style>
 a{
-  color: #fff;
+  color: #8692D0;;
 }
 </style>
