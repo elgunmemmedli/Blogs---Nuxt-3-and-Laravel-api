@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c047d5fa-2eea-4570-b222-df69b92245f5" name="Changes" comment="blog detail fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-    </list>
+    <list default="true" id="c047d5fa-2eea-4570-b222-df69b92245f5" name="Changes" comment="console.log fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +57,7 @@
       <workItem from="1671808211529" duration="769000" />
       <workItem from="1672954389009" duration="1221000" />
       <workItem from="1673266115461" duration="549000" />
-      <workItem from="1702639924744" duration="7453000" />
+      <workItem from="1702639924744" duration="7468000" />
     </task>
     <task id="LOCAL-00001" summary="new design">
       <option name="closed" value="true" />
@@ -86,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702646626421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="console.log fix">
+      <option name="closed" value="true" />
+      <created>1702647402186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702647402186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +101,7 @@
     <MESSAGE value="new design" />
     <MESSAGE value="a color fix" />
     <MESSAGE value="blog detail fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="blog detail fix" />
+    <MESSAGE value="console.log fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="console.log fix" />
   </component>
 </project>
