@@ -1,10 +1,8 @@
 <template>
 <div>
-    <AppHeader :posts="true" />
+    <AppHeader :posts="true"  title="" image="" />
   <div class="container">
-    <div class="row" v-if="data?.new_posts">
-              <BlogCard v-for="item of data?.new_posts" :key="item.id" :item="item"/>
-            </div>
+              <BlogCard v-if="data && data.new_posts"  :item="data.new_posts"/>
   </div>
 </div>
 </template>
@@ -30,7 +28,7 @@ const {data, error} = await useAsyncData(
       const result = {
         new_posts: {} as postTypes,
       }
-     result.new_posts = await $fetch('https://publisist.az/api/data');
+     result.new_posts = await $fetch(runtimeConfig.public.apiUrl);
       return result;
     }
 );

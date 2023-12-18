@@ -1,5 +1,6 @@
 <template>
-  <div class="col-12 col-lg-4">
+  <div class="row">
+  <div v-for="item in item" :key="item.id" class="col-12 col-lg-4">
     <div class="card align-items-center w-100 d-flex justify-content-center">
       <NuxtLink :to="'blogs/'+item.id">
       <div class="card__header">
@@ -11,6 +12,7 @@
       </NuxtLink>
     </div>
   </div>
+  </div>
 </template>
 
 
@@ -19,17 +21,11 @@
 import {postTypes} from "~/types/posts";
 
 const props = defineProps({
-  item: { type:String, required: true },
+  item: {
+    type: Object as () => postTypes,
+    required: true },
 })
 
-const formatDate = (rawDate:any) => {
-  const date = new Date(rawDate);
-  return date.toLocaleDateString('en-US', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
-};
 
 
 </script>

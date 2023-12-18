@@ -1,6 +1,6 @@
 <template>
-<div>
-<AppHeader :posts="false" :title="data?.new_posts.title" :image="data?.new_posts.img"/>
+<div v-if="data">
+<AppHeader :posts="false" :title="data.new_posts.title" :image="data.new_posts.img"/>
     <article class="mb-4">
             <div class="container px-4 px-lg-5">
                 <div>
@@ -32,7 +32,7 @@ const {data, error} = await useAsyncData(
       const result = {
         new_posts: {} as postTypes,
       }
-      result.new_posts = await $fetch('https://publisist.az/api/data/'+ route.params.id);
+      result.new_posts = await $fetch(base_url + '/' + route.params.id);
       return result;
     }
 );
